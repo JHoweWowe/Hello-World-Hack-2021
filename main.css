@@ -1,3 +1,48 @@
-#title {
-    font-size: 4em;
+/** Simple Flexbox centering with text aligned slightly above for easier accessibility **/
+.section1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-bottom: 10vh;
 }
+
+.section1::before {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.25;
+    background-image: url('src/images/Better-HWH2020-Logo.png');
+    content: "";
+}
+
+.row-text {
+    position: relative;
+    text-align: center;
+}
+
+#title {
+    position: relative;
+    font-size: 5em;
+    font-family: 'Ubuntu', 'Roboto', Arial, sans-serif;
+}
+#date {
+    position: relative;
+    font-size: 2.5em;
+    font-family: 'Ubuntu', 'Roboto', Arial, sans-serif;
+}
+#register-forms {
+    padding: 16px 0;
+    font-size: 2em;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+#headline {
+    position: relative;
+    font-size: 2.5em;
+    font-family: 'Ubuntu', 'Roboto', Arial, sans-serif;
+    padding-bottom: 16px;
+}
+
