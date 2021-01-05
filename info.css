@@ -1,0 +1,77 @@
+/*** Similar structure from HelloWorldHack 2020
+
+/**About HelloWorldHack:**/
+.about-hello-world-hack {
+    display: flex;
+    justify-content: center;
+    background-color: #202379;
+    padding: 16px 0;
+  }
+  /** Implementing repsonsive text which captures full-screen when screen is below/at 992px
+      large common breakpoints for responsiveness  **/
+  .about-hello-world-hack .row-text {
+    width: 80vw;
+    height: 92vh;
+    padding: 0 15px;
+  }
+  @media screen and (max-width: 768px) {
+    .about-hello-world-hack .row-text {
+      width: 100vw;
+      height: 92vh;
+    }
+  }
+  
+  .about-hello-world-hack h2 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 64px;
+    line-height: 1.35;
+    font-family: 'Oswald', sans-serif;
+  }
+  .about-hello-world-hack h3 {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.6;
+    font-family: 'Raleway', sans-serif;
+  }
+  .about-hello-world-hack h4 {
+    color: white;
+    padding-top: 16px;
+    text-align: center;
+    font-size: 64px;
+    line-height: 1.35;
+    font-family: 'Oswald', sans-serif;
+  }
+  .about-hello-world-hack h5 {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.6;
+    font-family: 'Oswald', sans-serif;
+  }
+  .about-hello-world-hack, .organizers-hello-world-hack, .faq-hello-world-hack {
+    padding: 16px 0;
+  }
+  .about-hello-world-hack .row, .mentors-hello-world-hack .row {
+    padding: 8px 0px;
+  }
+  a.button1, a.button2 {
+    display: block;
+    border: 0.16em solid #FFFFFF;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    font-family: 'Raleway',sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0.4em 1.2em;
+    margin: 0 auto;
+    font-size: 24px;
+    line-height: 1.6;
+  }
+  a.button1:hover, a.button2:hover {
+    color:#000000;
+    background-color:#FFFFFF;
+  }
+  

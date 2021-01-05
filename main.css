@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 /** Simple Flexbox centering with text aligned slightly above for easier accessibility **/
 .section1 {
     position: relative;
@@ -5,7 +9,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    padding-bottom: 10vh;
+    padding-bottom: 5vh;
 }
 
 .section1::before {
@@ -14,7 +18,7 @@
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.25;
+    opacity: 0.35;
     background-image: url('src/images/Better-HWH2020-Logo.png');
     content: "";
 }
@@ -26,8 +30,10 @@
 
 #title {
     position: relative;
+    font-weight: bold;
     font-size: 5em;
     font-family: 'Ubuntu', 'Roboto', Arial, sans-serif;
+    margin: 0px;
 }
 #date {
     position: relative;
@@ -35,14 +41,38 @@
     font-family: 'Ubuntu', 'Roboto', Arial, sans-serif;
 }
 #register-forms {
-    padding: 16px 0;
-    font-size: 2em;
+    padding: 24px 0;
+}
+#form-1-title {
+    font-size: 1.5em;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+#form-2-title {
+    font-size: 1.5em;
     font-family: 'Roboto', Arial, sans-serif;
 }
 #headline {
     position: relative;
     font-size: 2.5em;
     font-family: 'Ubuntu', 'Roboto', Arial, sans-serif;
-    padding-bottom: 16px;
+    padding-bottom: 8px;
+}
+#learnMoreButton {
+    font-size: 2.5em;
+    font-family: 'Ubuntu', 'Roboto', Arial, sans-serif;
+    padding: 8px 24px;
 }
 
+/** Handles media attribute when screen size is less than 500px
+    All attributes font-size are reduced by 20% **/
+@media only screen and (max-width: 500px) {
+    #title {
+        font-size: 4em;
+    }
+    #form-1-title, #form-2-title {
+        font-size: 1em;
+    }
+    #date, #headline, #learnMoreButton {
+        font-size: 2em;
+    }
+}
