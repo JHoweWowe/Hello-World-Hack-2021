@@ -7,8 +7,12 @@ More to be added
 - Home
   - Intro
   - Forms
-  - FAQ
-- Test
+  - Organizers
+  - Footer
+- FAQ
+- Gallery including images / videos
+- Inspirations?
+- Schedule?
 
 ## TO-DO:
 IMPORTANT: Needs to be mobile optimized

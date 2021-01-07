@@ -1,77 +1,157 @@
-/*** Similar structure from HelloWorldHack 2020
+/*** Similar structure from HelloWorldHack 2020 **/
+
+body {
+  overflow-x: hidden;
+}
 
 /**About HelloWorldHack:**/
 .about-hello-world-hack {
-    display: flex;
-    justify-content: center;
-    background-color: #202379;
-    padding: 16px 0;
-  }
-  /** Implementing repsonsive text which captures full-screen when screen is below/at 992px
-      large common breakpoints for responsiveness  **/
+  display: flex;
+  justify-content: center;
+  background-color: #202379;
+  width: 100vw;
+  padding: 16px 0;
+}
+
+/** Implementing repsonsive text which captures full-screen when screen is below/at 992px
+  large common breakpoints for responsiveness  **/
+.about-hello-world-hack .row-text {
+  width: 70vw;
+  height: auto;
+  padding: 0 15px;
+}
+@media screen and (max-width: 768px) {
   .about-hello-world-hack .row-text {
-    width: 80vw;
-    height: 92vh;
-    padding: 0 15px;
+    width: 100vw;
+    height: auto;
   }
-  @media screen and (max-width: 768px) {
-    .about-hello-world-hack .row-text {
-      width: 100vw;
-      height: 92vh;
-    }
-  }
+}
+
+#about-hwh-sectionOne, #about-hwh-sectionTwo {
+  padding-bottom: 8px;
+}
   
-  .about-hello-world-hack h2 {
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    font-size: 64px;
-    line-height: 1.35;
-    font-family: 'Oswald', sans-serif;
+#about-hwh-text, #about-hwh-date {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 64px;
+  line-height: 1.35;
+  font-family: 'Ubuntu', sans-serif;
+}
+.about-hello-world-hack h3, h5 {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.6;
+  font-family: 'Ubuntu', sans-serif;
+}
+.about-hello-world-hack {
+  padding: 16px 0;
+}
+.about-hello-world-hack .row {
+  padding: 8px 0px;
+}
+a.button1, a.button2 {
+  display: block;
+  border: 0.16em solid #FFFFFF;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  font-family: 'Ubuntu',sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 0.4em 1.2em;
+  margin: 0 auto;
+  font-size: 24px;
+  line-height: 1.6;
+  width: 25vw;
+}
+a.button1:hover, a.button2:hover {
+  color:#000000;
+  background-color:#FFFFFF;
+}
+
+#discord-a {
+  margin: 0 auto;
+  text-align: center;
+  width: 25vw;
+  background-color: #7289DA;
+  height: auto;
+  border-radius: 8px;
+}
+#discord-logo-img {
+  width: 100%;
+}
+
+/** Section for Hello World Hack mentors **/
+.mentors-hello-world-hack {
+  display: flex;
+  justify-content: center;
+  padding: 16px 0;
+  background-color: #9A0EFF;
+}
+#mentors-hello-world-hack-text {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 64px;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/** Implementing repsonsive text which captures full-screen when screen is below/at 992px
+     this is ideal for large common breakpoints  **/
+.mentors-hello-world-hack .container-fluid {
+  width: 70vw;
+  height: auto;
+  padding: 0px 15px;
+}
+@media screen and (max-width: 768px) {
+  .mentors-hello-world-hack .container-fluid {
+    width: 100vw;
+    height: auto;
   }
-  .about-hello-world-hack h3 {
-    color: white;
-    text-align: center;
-    font-size: 24px;
-    line-height: 1.6;
-    font-family: 'Raleway', sans-serif;
-  }
-  .about-hello-world-hack h4 {
-    color: white;
-    padding-top: 16px;
-    text-align: center;
-    font-size: 64px;
-    line-height: 1.35;
-    font-family: 'Oswald', sans-serif;
-  }
-  .about-hello-world-hack h5 {
-    color: white;
-    text-align: center;
-    font-size: 24px;
-    line-height: 1.6;
-    font-family: 'Oswald', sans-serif;
-  }
-  .about-hello-world-hack, .organizers-hello-world-hack, .faq-hello-world-hack {
-    padding: 16px 0;
-  }
-  .about-hello-world-hack .row, .mentors-hello-world-hack .row {
-    padding: 8px 0px;
-  }
-  a.button1, a.button2 {
-    display: block;
-    border: 0.16em solid #FFFFFF;
-    border-radius: 0.12em;
-    box-sizing: border-box;
-    font-family: 'Raleway',sans-serif;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 0.4em 1.2em;
-    margin: 0 auto;
-    font-size: 24px;
-    line-height: 1.6;
-  }
-  a.button1:hover, a.button2:hover {
-    color:#000000;
-    background-color:#FFFFFF;
-  }
-  
+}
+#mentors-hello-world-hack-subtext {
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.6;
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+}
+
+/** Organizers for Hello World Hack **/
+#organizers-sectionOne {
+  padding: 16px 0px;
+}
+
+#organizers-title {
+  font-weight: bold;
+  text-align: center;
+  font-size: 64px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#card-text {
+  color: black;
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/** Footer **/
+#footer {
+  padding: 24px 0px;
+  background-color: gray;
+}
+
+#footer h5 {
+  color: black;
+}
+#footer-copyright-text {
+  padding-left: 16px;
+  text-align: left;
+}
+#footer-right {
+  justify-content: end;
+  text-align: right;
+  padding-right: 24px;
+}
