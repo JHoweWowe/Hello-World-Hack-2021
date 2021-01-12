@@ -4,6 +4,40 @@ body {
   overflow-x: hidden;
 }
 
+.section1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.section1::before {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.5;
+  background-image: url('src/images/Better-HWH2020-Logo.png');
+  content: "";
+}
+
+/** Carousel slideshow **/
+#carouselImageSlideShow {
+  height: auto;
+  width: 70vw;
+  margin: 0 auto;
+  background-color: #000000;
+}
+@media screen and (max-width: 768px) {
+  #carouselImageSlideShow {
+    width: 100vw;
+    height: 0 auto;
+  }
+}
+
+
 /**About HelloWorldHack:**/
 .about-hello-world-hack {
   display: flex;
@@ -39,7 +73,7 @@ body {
   line-height: 1.35;
   font-family: 'Ubuntu', sans-serif;
 }
-.about-hello-world-hack h3, h5 {
+.about-hello-world-hack h3, #join-discord-text {
   color: white;
   text-align: center;
   font-size: 24px;
@@ -83,6 +117,15 @@ a.button1:hover, a.button2:hover {
   width: 100%;
 }
 
+@media screen and (max-width: 768px) {
+  a.button1, a.button2 {
+    width: 70vw;
+  }
+  #discord-a {
+    width: 70vw;
+  }
+}
+
 /** Section for Hello World Hack mentors **/
 .mentors-hello-world-hack {
   display: flex;
@@ -122,6 +165,7 @@ a.button1:hover, a.button2:hover {
 /** Organizers for Hello World Hack **/
 #organizers-sectionOne {
   padding: 16px 0px;
+  justify-content: center;
 }
 
 #organizers-title {
@@ -135,6 +179,7 @@ a.button1:hover, a.button2:hover {
   color: black;
   font-size: 16px;
   font-family: 'Ubuntu', sans-serif;
+  text-align: center;
 }
 
 /** Footer **/
@@ -154,4 +199,10 @@ a.button1:hover, a.button2:hover {
   justify-content: end;
   text-align: right;
   padding-right: 24px;
+}
+#justin-howe-link, #hwh-2019-website-link, #hwh-2020-website-link {
+  color: black;
+}
+#justin-howe-link:hover {
+  font-weight: bold;
 }
