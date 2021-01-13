@@ -23,7 +23,7 @@ body {
     content: "";
 }
 
-.row-text {
+.container {
     position: relative;
     text-align: center;
 }

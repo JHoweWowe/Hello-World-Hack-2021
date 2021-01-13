@@ -4,6 +4,12 @@ html, body {
   overflow-x: hidden;
 }
 
+/** Navigation **/
+.navbar-brand {
+  font-weight: bold;
+}
+
+/** Carousel slideshow background **/
 .section1 {
   position: relative;
   display: flex;
@@ -80,7 +86,7 @@ html, body {
   text-align: center;
   font-size: 24px;
   line-height: 1.6;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .about-hello-world-hack {
   padding: 16px 0;
@@ -159,6 +165,14 @@ a.button1:hover, a.button2:hover {
   background-color: orange;
   padding: 16px 0;
 }
+.faq-hello-world-hack .card-title {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+}
+.faq-hello-world-hack .card-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: light;
+}
 #faq-hello-world-hack {
   color: white;
   font-size: 64px;
@@ -181,34 +195,64 @@ a.button1:hover, a.button2:hover {
   font-family: 'Ubuntu', sans-serif;
 }
 
-#card-text {
+#organizers-description-text {
   color: black;
+  margin: 16px 4px;
   font-size: 16px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
+  line-height: 1.6;
+}
+
+/** Sponsors **/
+#sponsors-title {
+  font-size: 64px;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+.sponsors-hello-world-hack {
+  display: flex;
+  justify-content: center;
+}
+.sponsors-hello-world-hack h3 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+
+}
+.sponsors-hello-world-hack img {
+  display: block;
+  margin: 16px auto;
+  width: 80%;
 }
 
 /** Footer **/
-#footer {
-  padding: 24px 0px;
-  background-color: gray;
+footer {
   width: 100vw;
-}
-
-#footer h5 {
-  color: black;
-}
-#footer-copyright-text {
-  text-align: right;
-  font-size: 1rem;
+  background-color: #f8f9fa;
+  padding: 16px 0px;
 }
 #footer-right {
   justify-content: end;
   text-align: right;
+  font-size: 1rem;
 }
-#justin-howe-link, #hwh-2019-website-link, #hwh-2020-website-link {
+#ryan-schuller-link, #justin-howe-link, #hwh-2019-website-link, #hwh-2020-website-link {
   color: black;
+  font-family: 'Roboto', sans-serif;
 }
-#justin-howe-link:hover {
+#ryan-schuller-link:hover, #justin-howe-link:hover {
   font-weight: bold;
+}
+footer img {
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 2px 0;
+  filter: grayscale(1);
+  transition-property: filter;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+footer img:hover {
+  filter: grayscale(0);
 }
