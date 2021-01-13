@@ -8,6 +8,28 @@ html, body {
 .navbar-brand {
   font-weight: bold;
 }
+/**HelloWorldHack animated header - feature influenced by CSSTricks website **/
+.typewriter header {
+  font-size: 1.25rem;
+  overflow: hidden; /* Text hidden until animation starts */
+  border-right: .05em solid black; /* Cursor */
+  white-space: nowrap; /* Retains text content all on 1 line */
+  margin: 0 auto; /* Creates scroll effect */
+  animation:
+    typing 5s steps(40,end), /* Determines length of animation and frames needed to complete animation */
+    blinkTextCursor 0.75s step-end infinite; /* The cursor keeps blinking even after animation */
+}
+/* Type effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+/* The typewriter cursor effect */
+@keyframes blinkTextCursor {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
+}
+
 
 /** Carousel slideshow background **/
 .section1 {
@@ -88,7 +110,7 @@ html, body {
   line-height: 1.6;
   font-family: 'Roboto', sans-serif;
 }
-.about-hello-world-hack {
+.about-hello-world-hack, .mentors-hello-world-hack {
   padding: 16px 0;
 }
 .about-hello-world-hack .row {
@@ -104,9 +126,9 @@ a.button1, a.button2 {
   text-align: center;
   padding: 0.4em 1.2em;
   margin: 0 auto;
-  font-size: 24px;
+  font-size: 2em;
   line-height: 1.6;
-  width: 25vw;
+  width: 33vw;
 }
 a.button1:hover, a.button2:hover {
   color:#000000;
@@ -116,7 +138,7 @@ a.button1:hover, a.button2:hover {
 #discord-a {
   margin: 0 auto;
   text-align: center;
-  width: 25vw;
+  width: 33vw;
   background-color: #7289DA;
   height: auto;
   border-radius: 8px;
@@ -158,6 +180,7 @@ a.button1:hover, a.button2:hover {
   line-height: 1.6;
   font-family: 'Roboto', sans-serif;
   color: #FFFFFF;
+  margin-bottom: 16px;
 }
 
 /** FAQ **/
@@ -197,7 +220,7 @@ a.button1:hover, a.button2:hover {
 
 #organizers-description-text {
   color: black;
-  margin: 16px 4px;
+  margin: 8px 16px;
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
   text-align: center;

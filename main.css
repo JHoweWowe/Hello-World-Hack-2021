@@ -25,7 +25,7 @@ body {
 
 .container {
     position: relative;
-    text-align: center;
+    text-align: left;
 }
 
 #title {
@@ -43,13 +43,31 @@ body {
 #register-forms {
     padding: 24px 0;
 }
-#form-1-title-a, #form-2-title-a {
-    text-decoration: none;
+ul {
+    margin: 0px;
+    padding: 0px !important;
+    list-style-type: none;
 }
+li {
+    display: inline;
+    padding-right: 16px;
+}
+@media only screen and (min-width: 223px) and (max-width: 434px) {
+    li {
+        display: block;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 500px) {
+    li {
+        display: block;
+    }
+}
+
 #form-1-title, #form-2-title {
     font-size: 1.5em;
     font-family: 'Roboto', Arial, sans-serif;
     color: #FFFFFF;
+    text-decoration: none;
 }
 #form-1-title:hover, #form-2-title:hover {
     color: #202379;
@@ -61,10 +79,37 @@ body {
     font-family: 'Ubuntu', 'Roboto', Arial, sans-serif;
     padding-bottom: 8px;
 }
+/** Learn More Button **/ 
 #learnMoreButton {
-    font-size: 2.5em;
+    font-size: 2em;
     font-family: 'Ubuntu', 'Roboto', Arial, sans-serif;
     padding: 8px 24px;
+    width: 250px;
+
+    transition: all 0.5s;
+    cursor: pointer;
+    align-items: center;
+}
+#learnMoreButton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+#learnMoreButton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -30px;
+    transition: 0.5s
+}
+#learnMoreButton:hover span {
+    padding-right: 30px;
+}
+#learnMoreButton:hover span:after {
+    opacity: 1;
+    right: 0;
 }
 
 /** Handles media attribute when screen size is less than 500px
