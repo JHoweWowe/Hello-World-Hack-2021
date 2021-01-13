@@ -1,10 +1,6 @@
 /*** Similar structure from HelloWorldHack 2020 **/
 
 html, body {
-  width: 100%;
-  height: 100%;
-  margin: 0px;
-  padding: 0px;
   overflow-x: hidden;
 }
 
@@ -149,17 +145,7 @@ a.button1:hover, a.button2:hover {
 
 /** Implementing repsonsive text which captures full-screen when screen is below/at 992px
      this is ideal for large common breakpoints  **/
-.mentors-hello-world-hack .container-fluid {
-  width: 70vw;
-  height: auto;
-  padding: 0px 15px;
-}
-@media screen and (max-width: 768px) {
-  .mentors-hello-world-hack .container-fluid {
-    width: 100vw;
-    height: auto;
-  }
-}
+
 #mentors-hello-world-hack-subtext {
   text-align: center;
   font-size: 24px;
@@ -179,13 +165,6 @@ a.button1:hover, a.button2:hover {
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
-}
-@media screen and (min-width: 768px) {
-  .faq-hello-world-hack .row {
-    width: 95vw;
-    height: auto;
-    margin: 0 auto;
-  }
 }
 
 
@@ -213,6 +192,7 @@ a.button1:hover, a.button2:hover {
 #footer {
   padding: 24px 0px;
   background-color: gray;
+  width: 100vw;
 }
 
 #footer h5 {
