@@ -1,22 +1,27 @@
 # Hello-World-Hack-2021
 Website for U of Edinburgh's Hello World Hack 2021
+
 ## Description:
 More to be added
 
 ## Navigation:
-- Home
+- Home: Everyone should visit this page
   - Intro
-  - Forms
+  - Mentor and Attendee Forms
+  - FAQ
   - Organizers
+  - Sponsors
   - Footer
-- FAQ
-- Gallery including images / videos
-- Inspirations?
-- Schedule?
+- Other Pages: 
+  - Gallery including images / videos
+  - Schedule?
+  - More??
+
+## Technical Information:
+- 768px should be breakpoint for majority of responsive elements
 
 ## TO-DO:
-IMPORTANT: Needs to be mobile optimized
-Favicon, update README.md, implement simple animations etc
-Animations need to be more detailed in the front page
-
-Should have a link at the bottom for previous page of Hello World Hack 2020 and 2019
+- ENSURE website is mobile optimized
+- Favicon
+- Update README.md
+- Implement simple animations especially for front page
