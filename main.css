@@ -2,14 +2,13 @@ body {
     overflow-x: hidden;
 }
 
-/** Simple Flexbox centering with text aligned slightly above for easier accessibility **/
+/** Simple Flexbox centering with text aligned slightly above for easier visuals **/
 .section1 {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    padding-bottom: 5vh;
 }
 
 .section1::before {
@@ -18,8 +17,8 @@ body {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.5;
-    background-image: url('src/images/Better-HWH2020-Logo.png');
+    opacity: 0.6;
+    background-image: url('src/images/HWH2021-logo-words.png');
     content: "";
 }
 
@@ -32,7 +31,7 @@ body {
     position: relative;
     font-weight: bold;
     font-size: 5em;
-    font-family: 'Ubuntu', 'Roboto', Arial, sans-serif;
+    font-family: 'Poppins', 'Ubuntu', 'Open Sans', 'Roboto', Arial, sans-serif;
     margin: 0px;
 }
 #date {
@@ -40,12 +39,10 @@ body {
     font-size: 2.5em;
     font-family: 'Ubuntu', 'Roboto', Arial, sans-serif;
 }
-#register-forms {
-    padding: 24px 0;
-}
+
 ul {
     margin: 0px;
-    padding: 0px !important;
+    padding: 16px 0px !important;
     list-style-type: none;
 }
 li {
@@ -65,12 +62,12 @@ li {
 
 #form-1-title, #form-2-title {
     font-size: 1.5em;
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: 'Poppins', 'Ubuntu', 'Open Sans', 'Roboto', Arial, sans-serif;
     color: #FFFFFF;
     text-decoration: none;
 }
 #form-1-title:hover, #form-2-title:hover {
-    color: #202379;
+    color: #B23429;
     font-weight: bold;
 }
 #headline {
@@ -82,13 +79,15 @@ li {
 /** Learn More Button **/ 
 #learnMoreButton {
     font-size: 2em;
-    font-family: 'Ubuntu', 'Roboto', Arial, sans-serif;
+    font-family: 'Poppins', 'Ubuntu', 'Open Sans', 'Roboto', Arial, sans-serif;
     padding: 8px 24px;
-    width: 250px;
-
+    width: 260px;
     transition: all 0.5s;
     cursor: pointer;
     align-items: center;
+
+    background-color: #002B53;
+    border-color: #002B53;
 }
 #learnMoreButton span {
     cursor: pointer;

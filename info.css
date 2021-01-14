@@ -5,12 +5,13 @@ html, body {
 }
 
 /** Navigation **/
-.navbar-brand {
-  font-weight: bold;
+.navbar-nav {
+  font-family: 'Ubuntu', 'Open Sans', 'Roboto', Arial, sans-serif;
 }
 /**HelloWorldHack animated header - feature influenced by CSSTricks website **/
 .typewriter header {
   font-size: 1.25rem;
+  font-family: 'Ubuntu', 'Open Sans', 'Roboto', Arial, sans-serif;
   overflow: hidden; /* Text hidden until animation starts */
   border-right: .05em solid black; /* Cursor */
   white-space: nowrap; /* Retains text content all on 1 line */
@@ -47,8 +48,8 @@ html, body {
   right: 0px;
   bottom: 0px;
   left: 0px;
-  opacity: 0.5;
-  background-image: url('src/images/Better-HWH2020-Logo.png');
+  opacity: 0.8;
+  background-color: #002B53;
   content: "";
 }
 
@@ -57,7 +58,6 @@ html, body {
   height: auto;
   width: 70vw;
   margin: 0 auto;
-  background-color: #000000;
 }
 @media screen and (max-width: 768px) {
   #carouselImageSlideShow {
@@ -71,12 +71,10 @@ html, body {
 .about-hello-world-hack {
   display: flex;
   justify-content: center;
-  background-color: #202379;
+  background-color: #002B53;
   padding: 16px 0;
 }
 
-/** Implementing repsonsive text which captures full-screen when screen is below/at 992px
-  large common breakpoints for responsiveness  **/
 .about-hello-world-hack .row-text {
   width: 70vw;
   height: auto;
@@ -101,14 +99,14 @@ html, body {
   text-align: center;
   font-size: 64px;
   line-height: 1.35;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Poppins', 'Ubuntu', 'Open Sans', 'Roboto', Arial, sans-serif;
 }
 .about-hello-world-hack h3, #join-discord-text {
   color: white;
   text-align: center;
   font-size: 24px;
   line-height: 1.6;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', 'Roboto', sans-serif;
 }
 .about-hello-world-hack, .mentors-hello-world-hack {
   padding: 16px 0;
@@ -121,7 +119,7 @@ a.button1, a.button2 {
   border: 0.16em solid #FFFFFF;
   border-radius: 0.12em;
   box-sizing: border-box;
-  font-family: 'Ubuntu',sans-serif;
+  font-family: 'Poppins', 'Ubuntu', 'Open Sans', 'Roboto', Arial, sans-serif;
   color: #FFFFFF;
   text-align: center;
   padding: 0.4em 1.2em;
@@ -161,14 +159,14 @@ a.button1:hover, a.button2:hover {
   display: flex;
   justify-content: center;
   padding: 16px 0;
-  background-color: #9A0EFF;
+  background-color: #B23429;
 }
 #mentors-hello-world-hack-text {
   color: #FFFFFF;
   text-align: center;
   font-size: 64px;
   font-weight: bold;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Open Sans', 'Roboto', sans-serif;
 }
 
 /** Implementing repsonsive text which captures full-screen when screen is below/at 992px
@@ -185,22 +183,22 @@ a.button1:hover, a.button2:hover {
 
 /** FAQ **/
 .faq-hello-world-hack {
-  background-color: orange;
+  background-color: #FFA125;
   padding: 16px 0;
 }
 .faq-hello-world-hack .card-title {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Poppins', 'Ubuntu', 'Open Sans', 'Roboto', Arial, sans-serif;
   font-weight: 700;
 }
 .faq-hello-world-hack .card-text {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', 'Roboto', sans-serif;
   font-weight: light;
 }
 #faq-hello-world-hack {
   color: white;
   font-size: 64px;
   text-align: center;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Poppins', 'Ubuntu', 'Open Sans', 'Roboto', Arial, sans-serif;
   font-weight: bold;
 }
 
@@ -215,14 +213,14 @@ a.button1:hover, a.button2:hover {
   font-weight: bold;
   text-align: center;
   font-size: 64px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Poppins', 'Ubuntu', 'Open Sans', 'Roboto', Arial, sans-serif;
 }
 
 #organizers-description-text {
   color: black;
   margin: 8px 16px;
   font-size: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', 'Roboto', sans-serif;
   text-align: center;
   line-height: 1.6;
 }
@@ -231,7 +229,7 @@ a.button1:hover, a.button2:hover {
 #sponsors-title {
   font-size: 64px;
   text-align: center;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Poppins', 'Ubuntu', 'Open Sans', 'Roboto', Arial, sans-serif;
   font-weight: bold;
 }
 .sponsors-hello-world-hack {
@@ -239,7 +237,7 @@ a.button1:hover, a.button2:hover {
   justify-content: center;
 }
 .sponsors-hello-world-hack h3 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', 'Roboto', sans-serif;
   text-align: center;
 
 }
@@ -262,7 +260,7 @@ footer {
 }
 #ryan-schuller-link, #justin-howe-link, #hwh-2019-website-link, #hwh-2020-website-link {
   color: black;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', 'Roboto', sans-serif;
 }
 #ryan-schuller-link:hover, #justin-howe-link:hover {
   font-weight: bold;

@@ -1,5 +1,6 @@
-// This is inspired by #10 in the list
 // Link here: https://www.codesdope.com/blog/article/12-creative-css-and-javascript-text-typing-animati/
+// This is inspired by #10 in the list
+
 var TxtRotate = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
@@ -53,7 +54,7 @@ var TxtRotate = function(el, toRotate, period) {
     // INJECT CSS
     var css = document.createElement("style");
     css.type = "text/css";
-    css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+    css.innerHTML = ".txt-rotate > .wrap { border-right: 0.1em solid #212529 }";
     document.body.appendChild(css);
   };
   
