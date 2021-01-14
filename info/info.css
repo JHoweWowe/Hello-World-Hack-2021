@@ -6,7 +6,7 @@ html, body {
 
 /** Navigation **/
 .navbar-nav {
-  font-family: 'Ubuntu', 'Open Sans', 'Roboto', Arial, sans-serif;
+  font-family: 'Poppins', 'Ubuntu', 'Open Sans', 'Roboto', Arial, sans-serif;
 }
 #logo-topbar {
   position: relative;
@@ -17,7 +17,7 @@ html, body {
 /**HelloWorldHack animated header - feature influenced by CSSTricks website **/
 .typewriter header {
   font-size: 1.25rem;
-  font-family: 'Ubuntu', 'Open Sans', 'Roboto', Arial, sans-serif;
+  font-family: 'Poppins', 'Ubuntu', 'Open Sans', 'Roboto', Arial, sans-serif;
   overflow: hidden; /* Text hidden until animation starts */
   border-right: .05em solid black; /* Cursor */
   white-space: nowrap; /* Retains text content all on 1 line */
@@ -78,11 +78,10 @@ html, body {
   display: flex;
   justify-content: center;
   background-color: #002B53;
-  padding: 16px 0;
 }
 
 .about-hello-world-hack .row-text {
-  width: 70vw;
+  width: 830px;
   height: auto;
   padding: 0 15px;
 }
@@ -97,25 +96,32 @@ html, body {
   padding-bottom: 8px;
   justify-content: center;
   margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
 }
   
 #about-hwh-text, #about-hwh-date {
   color: white;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
   font-size: 64px;
   line-height: 1.35;
   font-family: 'Poppins', 'Ubuntu', 'Open Sans', 'Roboto', Arial, sans-serif;
 }
+#about-hwh-date {
+  text-align: center !important;
+}
 .about-hello-world-hack h3, #join-discord-text {
   color: white;
-  text-align: center;
-  font-size: 24px;
+  text-align: left;
+  font-size: 20px;
   line-height: 1.6;
   font-family: 'Open Sans', 'Roboto', sans-serif;
 }
+#join-discord-text {
+  text-align: center;
+}
 .about-hello-world-hack, .mentors-hello-world-hack {
-  padding: 16px 0;
+  padding: 46px 0;
 }
 .about-hello-world-hack .row {
   padding: 8px 0px;
@@ -128,11 +134,10 @@ a.button1, a.button2 {
   font-family: 'Poppins', 'Ubuntu', 'Open Sans', 'Roboto', Arial, sans-serif;
   color: #FFFFFF;
   text-align: center;
-  padding: 0.4em 1.2em;
-  margin: 0 auto;
-  font-size: 2em;
+  padding: 0.4em 3em;
+  margin: 1em auto;
+  font-size: 1.5em;
   line-height: 1.6;
-  width: 33vw;
 }
 a.button1:hover, a.button2:hover {
   color:#000000;
@@ -142,7 +147,7 @@ a.button1:hover, a.button2:hover {
 #discord-a {
   margin: 0 auto;
   text-align: center;
-  width: 33vw;
+  width: 280px;
   background-color: #7289DA;
   height: auto;
   border-radius: 8px;
@@ -164,23 +169,36 @@ a.button1:hover, a.button2:hover {
 .mentors-hello-world-hack {
   display: flex;
   justify-content: center;
-  padding: 16px 0;
+  /* padding: 16px 0; */
   background-color: #B23429;
 }
 #mentors-hello-world-hack-text {
   color: #FFFFFF;
-  text-align: center;
+  text-align: left;
   font-size: 64px;
   font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+.mentors-hello-world-hack .row-text {
+  width: 830px;
+  height: auto;
+  padding: 0 15px;
   font-family: 'Open Sans', 'Roboto', sans-serif;
+}
+@media screen and (max-width: 768px) {
+  .about-hello-world-hack .row-text {
+    width: 100vw;
+    height: auto;
+  }
 }
 
 /** Implementing repsonsive text which captures full-screen when screen is below/at 992px
      this is ideal for large common breakpoints  **/
 
 #mentors-hello-world-hack-subtext {
-  text-align: center;
-  font-size: 24px;
+  text-align: left;
+  font-size: 20px;
   line-height: 1.6;
   font-family: 'Roboto', sans-serif;
   color: #FFFFFF;
@@ -190,7 +208,7 @@ a.button1:hover, a.button2:hover {
 /** FAQ **/
 .faq-hello-world-hack {
   background-color: #FFA125;
-  padding: 16px 0;
+  padding: 46px 0;
 }
 .faq-hello-world-hack .card-title {
   font-family: 'Poppins', 'Ubuntu', 'Open Sans', 'Roboto', Arial, sans-serif;
@@ -198,7 +216,6 @@ a.button1:hover, a.button2:hover {
 }
 .faq-hello-world-hack .card-text {
   font-family: 'Open Sans', 'Roboto', sans-serif;
-  font-weight: light;
 }
 #faq-hello-world-hack {
   color: white;
@@ -211,7 +228,7 @@ a.button1:hover, a.button2:hover {
 
 /** Organizers for Hello World Hack **/
 #organizers-sectionOne {
-  padding: 16px 0px;
+  padding: 46px 0 16px;
   justify-content: center;
 }
 
@@ -237,6 +254,7 @@ a.button1:hover, a.button2:hover {
   text-align: center;
   font-family: 'Poppins', 'Ubuntu', 'Open Sans', 'Roboto', Arial, sans-serif;
   font-weight: bold;
+  padding: 46px 0 16px;
 }
 .sponsors-hello-world-hack {
   display: flex;
@@ -250,7 +268,7 @@ a.button1:hover, a.button2:hover {
 .sponsors-hello-world-hack img {
   display: block;
   margin: 16px auto;
-  width: 80%;
+  width: 64%;
 }
 
 /** Footer **/
