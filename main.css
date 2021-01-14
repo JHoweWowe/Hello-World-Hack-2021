@@ -161,4 +161,7 @@ li {
     #learnMoreButton {
         font-size: 1.5em !important;
     }
+    .container {
+        margin-bottom: 50px;
+    }
 }

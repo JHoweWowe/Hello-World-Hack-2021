@@ -8,6 +8,12 @@ html, body {
 .navbar-nav {
   font-family: 'Ubuntu', 'Open Sans', 'Roboto', Arial, sans-serif;
 }
+#logo-topbar {
+  position: relative;
+  height: 30px;
+  margin-top: -5px;
+  margin-right: 5px;
+}
 /**HelloWorldHack animated header - feature influenced by CSSTricks website **/
 .typewriter header {
   font-size: 1.25rem;
@@ -56,7 +62,7 @@ html, body {
 /** Carousel slideshow **/
 #carouselImageSlideShow {
   height: auto;
-  width: 70vw;
+  width: 50vw;
   margin: 0 auto;
 }
 @media screen and (max-width: 768px) {
