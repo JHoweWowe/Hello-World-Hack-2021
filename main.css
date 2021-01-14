@@ -1,5 +1,6 @@
 body {
     overflow-x: hidden;
+    color: #fff !important;
 }
 
 /** Simple Flexbox centering with text aligned slightly above for easier visuals **/
@@ -17,8 +18,7 @@ body {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.6;
-    background-image: url('src/images/HWH2021-logo-words.png');
+    background-color: #002B53;
     content: "";
 }
 
@@ -26,7 +26,12 @@ body {
     position: relative;
     text-align: left;
 }
-
+#logo-landing {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 20%;
+    max-width: 100px;
+}
 #title {
     position: relative;
     font-weight: bold;
@@ -37,7 +42,8 @@ body {
 #date {
     position: relative;
     font-size: 2.5em;
-    font-family: 'Ubuntu', 'Roboto', Arial, sans-serif;
+    font-weight: 500;
+    font-family: 'Poppins', 'Ubuntu', 'Roboto', Arial, sans-serif;
 }
 
 ul {
@@ -53,10 +59,29 @@ li {
     li {
         display: block;
     }
+    #learnMoreButton {
+        font-size: 1.5em !important;
+    }
 }
-@media only screen and (max-width: 768px) and (min-width: 500px) {
+@media only screen and (max-width: 1000px) and (min-width: 500px) {
     li {
         display: block;
+    }
+    #learnMoreButton {
+        width: calc(100% - 40px);
+        margin-left: 20px;
+    }
+    #title {
+        font-size: 3.5em;
+    }
+    #date {
+        font-size: 1.5em;
+    }
+    #headline {
+        font-size: 2em !important;
+    }
+    #learnMoreButton {
+        font-size: 1.5em !important;
     }
 }
 
@@ -67,27 +92,30 @@ li {
     text-decoration: none;
 }
 #form-1-title:hover, #form-2-title:hover {
-    color: #B23429;
-    font-weight: bold;
+    color: #FFA125;
+    /* font-weight: bold; */
 }
 #headline {
     position: relative;
     font-size: 2.5em;
-    font-family: 'Ubuntu', 'Roboto', Arial, sans-serif;
+    font-family: 'Poppins', 'Ubuntu', 'Roboto', Arial, sans-serif;
+    font-weight: 400;
     padding-bottom: 8px;
 }
 /** Learn More Button **/ 
 #learnMoreButton {
-    font-size: 2em;
+    font-size: 1.8em;
     font-family: 'Poppins', 'Ubuntu', 'Open Sans', 'Roboto', Arial, sans-serif;
     padding: 8px 24px;
+    margin-top: 40px;
+    margin-left: 0;
     width: 260px;
     transition: all 0.5s;
     cursor: pointer;
     align-items: center;
 
-    background-color: #002B53;
-    border-color: #002B53;
+    background-color: #B23429;
+    border-color: #B23429;
 }
 #learnMoreButton span {
     cursor: pointer;
@@ -122,5 +150,15 @@ li {
     }
     #date, #headline, #learnMoreButton {
         font-size: 2em;
+    }
+    #learnMoreButton {
+        width: calc(100% - 40px);
+        margin-left: 20px;
+    }
+    #logo-landing {
+        margin-top: 0;
+    }
+    #learnMoreButton {
+        font-size: 1.5em !important;
     }
 }
