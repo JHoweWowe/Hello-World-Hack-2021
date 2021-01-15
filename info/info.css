@@ -90,6 +90,9 @@ html, body {
     width: 100vw;
     height: auto;
   }
+  #about-hwh-text, #about-hwh-date, #mentors-hello-world-hack-text, #faq-hello-world-hack, #organizers-title, #sponsors-title {
+    font-size: 2.8em !important;
+  }
 }
 
 #about-hwh-sectionOne, #about-hwh-sectionTwo {
@@ -107,9 +110,9 @@ html, body {
   line-height: 1.35;
   font-family: 'Poppins', 'Ubuntu', 'Open Sans', 'Roboto', Arial, sans-serif;
 }
-#about-hwh-date {
+/* #about-hwh-date {
   text-align: center !important;
-}
+} */
 .about-hello-world-hack h3, #join-discord-text {
   color: white;
   text-align: left;
@@ -117,9 +120,9 @@ html, body {
   line-height: 1.6;
   font-family: 'Open Sans', 'Roboto', sans-serif;
 }
-#join-discord-text {
+/* #join-discord-text {
   text-align: center;
-}
+} */
 .about-hello-world-hack, .mentors-hello-world-hack {
   padding: 46px 0;
 }
@@ -145,7 +148,7 @@ a.button1:hover, a.button2:hover {
 }
 
 #discord-a {
-  margin: 0 auto;
+  margin: 20px auto;
   text-align: center;
   width: 280px;
   background-color: #7289DA;
@@ -283,12 +286,12 @@ footer {
   font-size: 1rem;
 }
 #ryan-schuller-link, #justin-howe-link, #hwh-2019-website-link, #hwh-2020-website-link {
-  color: black;
+  color: #B23429;
   font-family: 'Open Sans', 'Roboto', sans-serif;
 }
-#ryan-schuller-link:hover, #justin-howe-link:hover {
+/* #ryan-schuller-link:hover, #justin-howe-link:hover {
   font-weight: bold;
-}
+} */
 footer img {
   justify-content: center;
   margin: 0 auto;
@@ -300,4 +303,20 @@ footer img {
 }
 footer img:hover {
   filter: grayscale(0);
+}
+.social-link {
+  margin-right: 10px;
+}
+.social-link:hover {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  footer .row {
+text-align: center;
+  }
+  #footer-right {
+    text-align: center;
+    margin-top: 20px;
+  }
 }
