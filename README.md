@@ -1,27 +1,25 @@
 # Hello-World-Hack-2021
 Website for U of Edinburgh's Hello World Hack 2021
 
+## Authors:
+Justin Howe and Ryan Schuller
+
 ## Description:
-More to be added
+This year's Hello World Hack is a 42 hour, beginner-orientated virtual hackathon. If you've never attended a hackathon, or recently picked up programming and want to get a project off the ground, this is the hackathon for you! Filled with workshops on setting up a project, building it, and testing it, awesome prizes and high-quality banter galore! The best part, it's all free!
 
 ## Navigation:
-- Home: Everyone should visit this page
+- Landing Page
+- Info Page: Everyone should visit this page
   - Intro
   - Mentor and Attendee Forms
   - FAQ
   - Organizers
   - Sponsors
   - Footer
-- Other Pages: 
-  - Gallery including images / videos
-  - Schedule?
-  - More??
 
 ## Technical Information:
 - 768px should be breakpoint for majority of responsive elements
 
 ## TO-DO:
-- ENSURE website is mobile optimized
-- Favicon
-- Update README.md
-- Implement simple animations especially for front page
+- Schedule
+- Gallery (Only if time allows)
