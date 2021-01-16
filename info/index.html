@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <title>Hello World Hack 2021 Info Page</title>
+    <title>Hello World Hack 2021</title>
 
     <!-- Favicon-->
     <link rel="shortcut icon" href="../src/images/HWH2021-profile-transparent.png">
@@ -27,7 +27,7 @@
 
   <!-- BootStrap navigation bar has responsive collapsing with button -->
 <nav class="navbar navbar-expand-md navbar-light bg-light">
-  <a class="navbar-brand" href="../index.html">
+  <a class="navbar-brand" href="../">
     <img id="logo-topbar" src="../src/images/HWH2021-profile-transparent.png">
     <div class="typewriter" style="display: inline-flex;">
       <header id="header-text">Hello World Hack 2021</header>
@@ -39,15 +39,27 @@
   </button>
   <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
     <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href="#mentors">Mentors</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#faq">FAQ</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#organizers">Organizers</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#sponsors">Sponsors</a>
+      </li>
+      <!-- <li class="nav-item">
         <a class="nav-link disabled" href="#">Schedule</a>
       </li>
       <li class="nav-item">
         <a class="nav-link disabled" href="#">Gallery</a>
-      </li>
+      </li> -->
     </ul>
   </div>
 </nav>
@@ -100,7 +112,7 @@
   </section>
 
   <!-- About Hello World Hack Section- description, participant sign-up form, and discord link included -->
-  <section class="about-hello-world-hack">
+  <section class="about-hello-world-hack" id="about">
     <div class="row-text">
       <div id="about-hwh-sectionOne">
         <h2 id="about-hwh-text">So what exactly is <br> Hello World Hack?</h2>
@@ -133,7 +145,7 @@
   </section>
 
   <!-- Mentors section- designed for non-beginners interested in involving themselves in HelloWorldHack -->
-  <section class="mentors-hello-world-hack">
+  <section class="mentors-hello-world-hack" id="mentors">
     <div class="row-text">
       <h2 id="mentors-hello-world-hack-text">Not a beginner? <br> Become a mentor!</h2>
       <h3 id="mentors-hello-world-hack-subtext">Mentors are a vital part of Hello World Hack.
@@ -141,14 +153,16 @@
         As a mentor you will work closely with the teams while also getting an opportunity to chat to sponsors.
         If you have been to a hackathon before or have work experience then we encourage you to get involved!
       </h3>
+      <div class="container">
       <div class="row">
         <a href="https://forms.gle/nkX6CagFZKBJJvEb9" target="_blank" class="button2">Become a mentor!</a>
       </div>
     </div>
+    </div>
   </section>
 
   <!-- FAQ section -->
-  <section class="faq-hello-world-hack">
+  <section class="faq-hello-world-hack" id="faq">
     <div class="container">
       <h2 id="faq-hello-world-hack">FAQ:</h2>
       <div class="row">
@@ -245,7 +259,7 @@
   </section>
 
   <!-- Organizers section -->
-  <section class="organizers-hello-world-hack">
+  <section class="organizers-hello-world-hack" id="organizers">
     <div id="organizers-sectionOne">
       <h1 id="organizers-title">Organizers:</h1>
     </div>
@@ -278,7 +292,7 @@
   </section>
 
   <!-- Sponsors -->
-  <section class="sponsors-hello-world-hack">
+  <section class="sponsors-hello-world-hack" id="sponsors">
     <div class="container">
       <h1 id="sponsors-title">Sponsors:</h1>
       <div id="sponsors-main">
