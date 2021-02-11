@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+
+<!-- Credits: Timeline structure by Maxalos -->
+<!-- Modified by Justin Howe and Ryan Schuller -->
+<!-- Link can be found here: https://codepen.io/Maxalos/pen/MXXqGj-->
+
+<!-- Author Note: Oh wow! I feel very much exposed. Well, the schedule template isn't from scratch I'm afraid.
+    This had to be done within last minute notice and within a few hours, as 
+    many changes had to be conducted in the administration side of creating this year's hackathon. -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Justin Howe">
+    <meta name="author" content="Ryan Schuller">
+    <meta name="description" content="Website for UofE's Hello World Hack 2021">
+
+    <!-- Google Fonts API -->
+    <link rel="stylesheet" type="text/css" href="schedule.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap">
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Roboto|Poppins|Open+Sans">
+
+    <!-- BootStrap 4.1.3 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Hello World Hack 2021</title>
+
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="../src/images/HWH2021-profile-transparent.png">
+</head>
+
+<body>
+
+    <!-- BootStrap navigation bar has responsive collapsing with button -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="../">
+        <img id="logo-topbar" src="../src/images/HWH2021-profile-transparent.png">
+        <div class="typewriter" style="display: inline-flex;">
+            <header id="header-text">Hello World Hack 2021</header>
+        </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link" href="../">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="../info/">Info</a>
+                </li>
+                <!-- <li class="nav-item">
+                <a class="nav-link disabled" href="#">Schedule</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link disabled" href="#">Gallery</a>
+                </li> -->
+            </ul>
+        </div>
+    </nav>
+
+    <div id="main-container" class="container">
+        <h1 id="schedule-title">Schedule</h1>
+        <h3 id="schedule-subtitle">All event timings are in GMT +0 timezone!<br>Schedule to be finalized!</h3>
+
+        <div id="button-container">
+            <button id="day-one-btn" type="button" class="btn btn-info">Day One</button>
+            <button id="day-two-btn" type="button" class="btn btn-info">Day Two</button>
+            <button id="day-three-btn" type="button" class="btn btn-info">Day Three</button>
+        </div>
+
+        <!-- Day 1 (12 Feb) Schedule -->
+        <div id="day-one-schedule" class="container py-2 mt-4 mb-4">
+            <h1>12 February 2021</h1>
+            <!-- timeline item 1 -->
+            <div class="row no-gutters">
+              <div class="col-md"> <!--spacer--> </div>
+              <!-- timeline item 1 center dot -->
+              <div class="col-md-1 text-center flex-column d-none d-md-flex">
+                <div class="row h-50">
+                  <div class="col">&nbsp;</div>
+                  <div class="col"><div class="timeline">
+            
+                </div>&nbsp;</div>
+                </div>
+                <h5 class="m-2">
+                  <span class="badge badge-pill bg-light border">&nbsp;</span>
+                </h5>
+                <div class="row h-50">
+                  <div class="col border-right">&nbsp;</div>
+                  <div class="col">&nbsp;</div>
+                </div>
+              </div>
+              <!-- timeline item 1 event content -->
+              <div class="col-md py-2">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="float-right text-muted small">17:00 - 17:45</div>
+                    <h4 class="card-title text-muted">Opening Ceremony</h4>
+                    <p class="card-text">[EUWiSTEM Zoom]</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/row-->
+            <!-- timeline item 2 -->
+            <div class="row no-gutters">
+              <div class="col-md py-2">
+                <div class="card shadow">
+                  <div class="card-body">
+                    <div class="float-right small">17:45 - 18:00</div>
+                    <h4 class="card-title">Introduction to Discord</h4>
+                    <p class="card-text">[EUWiSTEM Zoom]</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-1 text-center flex-column d-none d-md-flex">
+                <div class="row h-50">
+                  <div class="col border-right">&nbsp;</div>
+                  <div class="col">&nbsp;</div>
+                </div>
+                <h5 class="m-2">
+                  <span class="badge badge-pill bg-light border">&nbsp;</span>
+                </h5>
+                <div class="row h-50">
+                  <div class="col border-right">&nbsp;</div>
+                  <div class="col">&nbsp;</div>
+                </div>
+              </div>
+              <div class="col-md"> <!--spacer--> </div>
+            </div>
+            <!--/row-->
+            <!-- timeline item 3 -->
+            <div class="row no-gutters">
+              <div class="col-md"> <!--spacer--> </div>
+              <div class="col-md-1 text-center flex-column d-none d-md-flex">
+                <div class="row h-50">
+                  <div class="col border-right">&nbsp;</div>
+                  <div class="col">&nbsp;</div>
+                </div>
+                <h5 class="m-2">
+                  <span class="badge badge-pill bg-light border">&nbsp;</span>
+                </h5>
+                <div class="row h-50">
+                  <div class="col border-right">&nbsp;</div>
+                  <div class="col">&nbsp;</div>
+                </div>
+              </div>
+              <div class="col-md py-2">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="float-right text-muted small">18:00 - 19:00</div>
+                    <h4 class="card-title">Dinner Break / Networking</h4>
+                    <p class="card-text">[Discord - Sponsor Meeting Rooms]</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/row-->
+            <!-- timeline item 4 -->
+            <div class="row no-gutters">
+              <div class="col-md py-2">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="float-right text-muted small">19:00 - 19:30</div>
+                    <h4 class="card-title">Finalize Team Creation</h4>
+                    <p class="card-text">[EUWiSTEM Zoom]</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-1 text-center flex-column d-none d-md-flex">
+                <div class="row h-50">
+                  <div class="col border-right">&nbsp;</div>
+                  <div class="col">&nbsp;</div>
+                </div>
+                <h5 class="m-2">
+                  <span class="badge badge-pill bg-light border">&nbsp;</span>
+                </h5>
+                <div class="row h-50">
+                  <div class="col border-right">&nbsp;</div>
+                  <div class="col">&nbsp;</div>
+                </div>
+              </div>
+              <div class="col-md"> <!--spacer--> </div>
+            </div>
+            <!--/row-->
+            <!-- timeline item 5 -->
+            <div class="row no-gutters">
+                <div class="col-md"> <!--spacer--> </div>
+                <div class="col-md-1 text-center flex-column d-none d-md-flex">
+                  <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                  </div>
+                  <h5 class="m-2">
+                    <span class="badge badge-pill bg-light border">&nbsp;</span>
+                  </h5>
+                </div>
+                <div class="col-md py-2">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="float-right text-muted small">19:30 - 21:00</div>
+                      <h4 class="card-title">Social</h4>
+                      <p class="card-text">[EUWiSTEM Zoom]</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!--/row-->
+              
+        </div>
+
+        <!-- Day 2 (13 Feb) Schedule -->
+        <div id="day-two-schedule" class="container py-2 mt-4 mb-4">
+            <h1>13 February 2021</h1>
+            <!-- timeline item 1 -->
+            <div class="row no-gutters">
+                <div class="col-md"> <!--spacer--> </div>
+                <!-- timeline item 1 center dot -->
+                <div class="col-md-1 text-center flex-column d-none d-md-flex">
+                <div class="row h-50">
+                    <div class="col">&nbsp;</div>
+                    <div class="col"><div class="timeline">
+            
+                </div>&nbsp;</div>
+                </div>
+                <h5 class="m-2">
+                    <span class="badge badge-pill bg-light border">&nbsp;</span>
+                </h5>
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+                </div>
+                <!-- timeline item 1 event content -->
+                <div class="col-md py-2">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="float-right text-muted small">10:00 - 10:30</div>
+                        <h4 class="card-title text-muted">Idea Finding Presentation</h4>
+                        <p class="card-text">[EUWiSTEM Zoom]</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!--/row-->
+            <!-- timeline item 2 -->
+            <div class="row no-gutters">
+                <div class="col-md py-2">
+                <div class="card shadow">
+                    <div class="card-body">
+                    <div class="float-right small">11:00 - 12:15</div>
+                    <h4 class="card-title">Introduction to Python by Bloomberg (Part 1)</h4>
+                    <p class="card-text">[EUWiSTEM Zoom]</p>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-1 text-center flex-column d-none d-md-flex">
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+                <h5 class="m-2">
+                    <span class="badge badge-pill bg-light border">&nbsp;</span>
+                </h5>
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+                </div>
+                <div class="col-md"> <!--spacer--> </div>
+            </div>
+            <!--/row-->
+            <!-- timeline item 3 -->
+            <div class="row no-gutters">
+                <div class="col-md"> <!--spacer--> </div>
+                <div class="col-md-1 text-center flex-column d-none d-md-flex">
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+                <h5 class="m-2">
+                    <span class="badge badge-pill bg-light border">&nbsp;</span>
+                </h5>
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+                </div>
+                <div class="col-md py-2">
+                <div class="card">
+                    <div class="card-body">
+                    <div class="float-right text-muted small">12:15 - 13:00</div>
+                    <h4 class="card-title">Introduction to Python by Bloomberg (Part 2)</h4>
+                    <p class="card-text">[EUWiSTEM Zoom]</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!--/row-->
+            <!-- timeline item 4 -->
+            <div class="row no-gutters">
+                <div class="col-md py-2">
+                <div class="card">
+                    <div class="card-body">
+                    <div class="float-right text-muted small">13:00 - 13:15</div>
+                    <h4 class="card-title">Announcement</h4>
+                    <p class="card-text">[Discord]</p>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-1 text-center flex-column d-none d-md-flex">
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+                <h5 class="m-2">
+                    <span class="badge badge-pill bg-light border">&nbsp;</span>
+                </h5>
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+                </div>
+                <div class="col-md"> <!--spacer--> </div>
+            </div>
+            <!--/row-->
+            <!-- timeline item 5 -->
+            <div class="row no-gutters">
+                <div class="col-md"> <!--spacer--> </div>
+                <!-- timeline item 1 center dot -->
+                <div class="col-md-1 text-center flex-column d-none d-md-flex">
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col"><div class="timeline">
+            
+                </div>&nbsp;</div>
+                </div>
+                <h5 class="m-2">
+                    <span class="badge badge-pill bg-light border">&nbsp;</span>
+                </h5>
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+                </div>
+                <!-- timeline item 1 event content -->
+                <div class="col-md py-2">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="float-right text-muted small">13:00 - 13:15</div>
+                        <h4 class="card-title text-muted">Introduce Scavenger Hunt</h4>
+                        <p class="card-text">TBC</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!--/row-->
+            <!-- timeline item 6 -->
+            <div class="row no-gutters">
+                <div class="col-md py-2">
+                <div class="card shadow">
+                    <div class="card-body">
+                    <div class="float-right small">13:15 - 14:00</div>
+                    <h4 class="card-title">Lunch Break / Networking</h4>
+                    <p class="card-text">Meet others!</p>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-1 text-center flex-column d-none d-md-flex">
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+                <h5 class="m-2">
+                    <span class="badge badge-pill bg-light border">&nbsp;</span>
+                </h5>
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+                </div>
+                <div class="col-md"> <!--spacer--> </div>
+            </div>
+            <!--/row-->
+            <!-- timeline item 7 -->
+            <div class="row no-gutters">
+                <div class="col-md"> <!--spacer--> </div>
+                <!-- timeline item 1 center dot -->
+                <div class="col-md-1 text-center flex-column d-none d-md-flex">
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col"><div class="timeline">
+                </div>&nbsp;</div>
+                </div>
+                <h5 class="m-2">
+                    <span class="badge badge-pill bg-light border">&nbsp;</span>
+                </h5>
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+                </div>
+                <!-- timeline item 1 event content -->
+                <div class="col-md py-2">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="float-right text-muted small">14:00 - 15:30</div>
+                        <h4 class="card-title text-muted">Choose One:</h4>
+                        <p class="card-text">Web Development Workshop [EUWiSTEM Zoom] <br> 
+                            Game Development Workshop [helloworldhack.com/gamedev]</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!--/row-->
+            <!-- timeline item 8 -->
+            <div class="row no-gutters">
+                <div class="col-md py-2">
+                <div class="card shadow">
+                    <div class="card-body">
+                    <div class="float-right small">15:30 - 16:00</div>
+                    <h4 class="card-title">Plank Challenge</h4>
+                    <p class="card-text">[EUWiSTEM Zoom]</p>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-1 text-center flex-column d-none d-md-flex">
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+                <h5 class="m-2">
+                    <span class="badge badge-pill bg-light border">&nbsp;</span>
+                </h5>
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+                </div>
+                <div class="col-md"> <!--spacer--> </div>
+            </div>
+            <!--/row-->
+            <!-- timeline item 9 -->
+            <div class="row no-gutters">
+                <div class="col-md"> <!--spacer--> </div>
+                <!-- timeline item 1 center dot -->
+                <div class="col-md-1 text-center flex-column d-none d-md-flex">
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col"><div class="timeline">
+            
+                </div>&nbsp;</div>
+                </div>
+                <h5 class="m-2">
+                    <span class="badge badge-pill bg-light border">&nbsp;</span>
+                </h5>
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+                </div>
+                <!-- timeline item 1 event content -->
+                <div class="col-md py-2">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="float-right text-muted small">16:00 - 17:00</div>
+                        <h4 class="card-title text-muted">Svelte Workshop: Samuel CONFIRMED [EUWiSTEM Zoom] </h4>
+                        <p class="card-text">[EUWiSTEM Zoom]</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!--/row-->
+            <!-- timeline item 10 -->
+            <div class="row no-gutters">
+                <div class="col-md py-2">
+                <div class="card shadow">
+                    <div class="card-body">
+                    <div class="float-right small">17:00 - 18:00</div>
+                    <h4 class="card-title">UI/UX Workshop</h4>
+                    <p class="card-text">[EUWiSTEM Zoom]</p>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-1 text-center flex-column d-none d-md-flex">
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+                <h5 class="m-2">
+                    <span class="badge badge-pill bg-light border">&nbsp;</span>
+                </h5>
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+                </div>
+                <div class="col-md"> <!--spacer--> </div>
+            </div>
+            <!--/row-->
+            <!-- timeline item 11 -->
+            <div class="row no-gutters">
+                <div class="col-md"> <!--spacer--> </div>
+                <!-- timeline item 1 center dot -->
+                <div class="col-md-1 text-center flex-column d-none d-md-flex">
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col"><div class="timeline">
+                </div>&nbsp;</div>
+                </div>
+                <h5 class="m-2">
+                    <span class="badge badge-pill bg-light border">&nbsp;</span>
+                </h5>
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+                </div>
+                <!-- timeline item 1 event content -->
+                <div class="col-md py-2">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="float-right text-muted small">18:00 - 19:00</div>
+                        <h4 class="card-title text-muted">Dinner Break/Networking</h4>
+                        <p class="card-text">[Discord - Sponsor Meeting Rooms]</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!--/row-->
+            <!-- timeline item 12 -->
+            <div class="row no-gutters">
+                <div class="col-md py-2">
+                <div class="card shadow">
+                    <div class="card-body">
+                    <div class="float-right small">19:00 - 20:00</div>
+                    <h4 class="card-title">Online Games</h4>
+                    <p class="card-text">[EUWiSTEM Zoom]?</p>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-1 text-center flex-column d-none d-md-flex">
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+                <h5 class="m-2">
+                    <span class="badge badge-pill bg-light border">&nbsp;</span>
+                </h5>
+                </div>
+                <div class="col-md"> <!--spacer--> </div>
+            </div>
+            <!--/row-->
+
+        </div>
+
+        <!-- Day 3 (14 Feb) Schedule -->
+        <div id="day-three-schedule" class="container py-2 mt-4 mb-4">
+            <h1>14 February 2021</h1>
+            <!-- timeline item 1 -->
+            <div class="row no-gutters">
+                <div class="col-md"> <!--spacer--> </div>
+                <!-- timeline item 1 center dot -->
+                <div class="col-md-1 text-center flex-column d-none d-md-flex">
+                <div class="row h-50">
+                    <div class="col">&nbsp;</div>
+                    <div class="col"><div class="timeline">
+            
+                </div>&nbsp;</div>
+                </div>
+                <h5 class="m-2">
+                    <span class="badge badge-pill bg-light border">&nbsp;</span>
+                </h5>
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+                </div>
+                <!-- timeline item 1 event content -->
+                <div class="col-md py-2">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="float-right text-muted small">10:00 - 10:30</div>
+                        <h4 class="card-title text-muted">Yoga</h4>
+                        <p class="card-text">[Discord]</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!--/row-->
+            <!-- timeline item 2 -->
+            <div class="row no-gutters">
+                <div class="col-md py-2">
+                <div class="card shadow">
+                    <div class="card-body">
+                    <div class="float-right small">10:30 - 12:00</div>
+                    <h4 class="card-title">Finish Challenges</h4>
+                    <p class="card-text">[Discord]</p>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-1 text-center flex-column d-none d-md-flex">
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+                <h5 class="m-2">
+                    <span class="badge badge-pill bg-light border">&nbsp;</span>
+                </h5>
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+                </div>
+                <div class="col-md"> <!--spacer--> </div>
+            </div>
+            <!--/row-->
+            <!-- timeline item 3 -->
+            <div class="row no-gutters">
+                <div class="col-md"> <!--spacer--> </div>
+                <div class="col-md-1 text-center flex-column d-none d-md-flex">
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+                <h5 class="m-2">
+                    <span class="badge badge-pill bg-light border">&nbsp;</span>
+                </h5>
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+                </div>
+                <div class="col-md py-2">
+                <div class="card">
+                    <div class="card-body">
+                    <div class="float-right text-muted small">12:00 - 14:00</div>
+                    <h4 class="card-title">Lunch Break</h4>
+                    <p class="card-text">[Discord - Sponsor Meeting Rooms]</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!--/row-->
+            <!-- timeline item 4 -->
+            <div class="row no-gutters">
+                <div class="col-md py-2">
+                <div class="card">
+                    <div class="card-body">
+                    <div class="float-right text-muted small">14:00 - 16:00</div>
+                    <h4 class="card-title">Closing Ceremony and Prizes</h4>
+                    <p class="card-text">[EUWiSTEM Zoom]</p>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-1 text-center flex-column d-none d-md-flex">
+                <div class="row h-50">
+                    <div class="col border-right">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+                <h5 class="m-2">
+                    <span class="badge badge-pill bg-light border">&nbsp;</span>
+                </h5>
+                <div class="row h-50">
+                    <div class="col">&nbsp;</div>
+                    <div class="col">&nbsp;</div>
+                </div>
+                </div>
+                <div class="col-md"> <!--spacer--> </div>
+            </div>
+            <!--/row-->
+        </div>
+          
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div id="footer-div" class="container">
+        <div class="row">
+            <div id="footer-left" class="col-md-6">
+            <a class="social-link" href="https://www.facebook.com/hackhelloworld" target="_blank">
+                <img src="../src/images/f_logo_RGB-Blue_72.png" alt="Facebook Icon" width="40px" height="36px" class="img-rounded">
+            </a>
+            <a class="social-link" href="https://www.linkedin.com/company/hello-world-hackathon/" target="_blank">
+                <img src="../src/images/LI-In-Bug.png" alt="LinkedIn Icon" width="40px" height="36px" class="img-rounded">
+            </a>
+            <a class="social-link" href="https://twitter.com/HelloWorldHack" target="_blank">
+                <img src="../src/images/Twitter_Logo_Blue.png" alt="Twitter Icon" width="40px" height="36px" class="img-rounded">
+            </a>
+            <a class="social-link" href="https://www.youtube.com/channel/UCtgjEZi-tF1H63JK8pyexlA" target="_blank">
+                <img src="../src/images/youtube-logo.png" alt="Youtube Icon" width="40px" height="36px" class="img-rounded">
+            </a>
+            </div>
+            <div id="footer-right" class="col-md-6">
+            <p>© 2021 <a id="justin-howe-link" href="https://justinhowe.me/" target="_blank">Justin Howe</a> 
+                | 
+            Graphics by <a id="ryan-schuller-link" href="https://ryanschuller.com" target="_blank">Ryan Schuller</a></p>
+
+            <a id="hwh-2019-website-link" href="https://hello-world-hack.github.io/Landing/" target="_blank">2019</a>
+            |
+            <a id="hwh-2020-website-link" href="https://justinhowe.me/Hello-World-Hack-2020/" target="_blank">2020</a>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    <!-- Personalized script -->
+    <script src="schedule-script.js"></script>
+
+
+    <!-- External scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+
+</body>

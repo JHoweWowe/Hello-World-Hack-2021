@@ -2,6 +2,7 @@
 
 html, body {
   overflow-x: hidden;
+  scroll-behavior: smooth; /** When user clicks on one of navigation tabs, scrolls smoothly **/
 }
 
 /** Navigation **/
@@ -268,7 +269,6 @@ a.button1:hover, a.button2:hover {
 .sponsors-hello-world-hack h3 {
   font-family: 'Open Sans', 'Roboto', sans-serif;
   text-align: center;
-
 }
 .sponsors-hello-world-hack img {
   display: block;
@@ -315,7 +315,7 @@ footer img:hover {
 
 @media screen and (max-width: 768px) {
   footer .row {
-text-align: center;
+    text-align: center;
   }
   #footer-right {
     text-align: center;
