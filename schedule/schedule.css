@@ -44,15 +44,15 @@ html, body {
     margin: 8px 16px;
     font-size: 24px;
     padding: 8px 16px;
-    border: 5px solid #B23429;
+    border: 5px solid #002B53;
 }
 #day-one-btn {
-  background: #B23429;
+  background: #002B53;
   color: #FFF;
 }
 #day-two-btn, #day-three-btn {
     background: #FFF;
-    color: #B23429;
+    color: #002B53;
 }
 #schedule-title {
     font-weight: bold;
@@ -86,6 +86,14 @@ html, body {
 }
 #day-one-schedule p, #day-two-schedule p, #day-three-schedule p {
     font-family: 'Open Sans', 'Roboto', Arial, sans-serif;
+}
+
+#red-deadline {
+  color: #B23429;
+}
+
+#day-one-btn:hover, #day-two-btn:hover, #day-three-btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 

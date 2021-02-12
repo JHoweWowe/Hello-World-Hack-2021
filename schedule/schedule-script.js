@@ -16,12 +16,12 @@ dayOneButton.onclick = function() {
     dayTwoTimelineSchedule.style.display = "none";
     dayThreeTimelineSchedule.style.display = "none";
 
-    dayOneBtn.style.background = "#B23429";
+    dayOneBtn.style.background = "#002B53";
     dayOneBtn.style.color = "#FFF";
     dayTwoBtn.style.background = "#FFF";
-    dayTwoBtn.style.color = "#B23429";
+    dayTwoBtn.style.color = "#002B53";
     dayThreeBtn.style.background = "#FFF";
-    dayThreeBtn.style.color = "#B23429";
+    dayThreeBtn.style.color = "#002B53";
 }
 dayTwoButton.onclick = function() {
     dayOneTimelineSchedule.style.display = "none";
@@ -29,11 +29,11 @@ dayTwoButton.onclick = function() {
     dayThreeTimelineSchedule.style.display = "none";
 
     dayOneBtn.style.background = "#FFF";
-    dayOneBtn.style.color = "#B23429";
-    dayTwoBtn.style.background = "#B23429";
+    dayOneBtn.style.color = "#002B53";
+    dayTwoBtn.style.background = "#002B53";
     dayTwoBtn.style.color = "#FFF";
     dayThreeBtn.style.background = "#FFF";
-    dayThreeBtn.style.color = "#B23429";
+    dayThreeBtn.style.color = "#002B53";
 }
 dayThreeButton.onclick = function() {
     dayOneTimelineSchedule.style.display = "none";
@@ -41,9 +41,9 @@ dayThreeButton.onclick = function() {
     dayThreeTimelineSchedule.style.display = "block";
 
     dayOneBtn.style.background = "#FFF";
-    dayOneBtn.style.color = "#B23429";
+    dayOneBtn.style.color = "#002B53";
     dayTwoBtn.style.background = "#FFF";
-    dayTwoBtn.style.color = "#B23429";
-    dayThreeBtn.style.background = "#B23429";
+    dayTwoBtn.style.color = "#002B53";
+    dayThreeBtn.style.background = "#002B53";
     dayThreeBtn.style.color = "#FFF";
 }
