@@ -44,10 +44,16 @@ html, body {
     margin: 8px 16px;
     font-size: 24px;
     padding: 8px 16px;
-    border-color: #B23429;
-    background-color: #B23429;
+    border: 5px solid #B23429;
 }
-
+#day-one-btn {
+  background: #B23429;
+  color: #FFF;
+}
+#day-two-btn, #day-three-btn {
+    background: #FFF;
+    color: #B23429;
+}
 #schedule-title {
     font-weight: bold;
     font-size: 54px;
