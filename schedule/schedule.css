@@ -14,7 +14,7 @@ html, body {
 }
 /**HelloWorldHack animated header - feature influenced by CSSTricks website **/
 .typewriter header {
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     font-family: 'Poppins', 'Ubuntu', 'Open Sans', 'Roboto', Arial, sans-serif;
     overflow: hidden; /* Text hidden until animation starts */
     border-right: .05em solid transparent; /* Cursor */
@@ -41,7 +41,7 @@ html, body {
     margin-top: 16px;
 }
 #button-container button {
-    margin: 0px 16px;
+    margin: 8px 16px;
     font-size: 24px;
     padding: 8px 16px;
     border-color: #B23429;
