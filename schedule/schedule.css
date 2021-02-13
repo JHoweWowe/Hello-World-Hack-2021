@@ -46,11 +46,11 @@ html, body {
     padding: 8px 16px;
     border: 5px solid #002B53;
 }
-#day-one-btn {
+#day-two-btn {
   background: #002B53;
   color: #FFF;
 }
-#day-two-btn, #day-three-btn {
+#day-one-btn, #day-three-btn {
     background: #FFF;
     color: #002B53;
 }
@@ -98,10 +98,10 @@ html, body {
 
 
 #day-one-schedule {
-    display: block;
+    display: none;
 }
 #day-two-schedule {
-    display: none;
+    display: block;
 }
 #day-three-schedule {
     display: none;
