@@ -143,12 +143,12 @@ li {
     All attributes font-size are reduced by 20% **/
 @media only screen and (max-width: 500px) {
     #title {
-        font-size: 4em;
+        font-size: 3.5em;
     }
-    #form-1-title, #form-2-title {
+    #form-1-title, #form-2-title, #headline {
         font-size: 1.5em;
     }
-    #date, #headline, #learnMoreButton {
+    #date, #learnMoreButton {
         font-size: 2em;
     }
     #learnMoreButton {
