@@ -22,3 +22,6 @@ This year's Hello World Hack is a 42 hour, beginner-orientated virtual hackathon
 - Website built with HTML, CSS, Javascript and BootStrap
 - BootStrap: 768px should be breakpoint for majority of responsive elements
 - Tested rigouriously with three different devices: mobile, tablet, and laptop using Control Inspection
+
+## License:
+MIT License
